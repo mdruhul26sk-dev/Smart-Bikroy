@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Bikroy - Trial</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #e60000;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.search-box {
+    padding: 10px;
+    background: white;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.category {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card .info {
+    padding: 8px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 13px;
+    color: gray;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Smart Bikroy</h2>
+    <p>বাংলাদেশের অনলাইন মার্কেট</p>
+</header>
+
+<div class="search-box">
+    <input type="text" placeholder="আপনি কী খুঁজছেন?">
+</div>
+
+<div class="container">
+
+    <div class="categories">
+        <div class="category">📱 মোবাইল</div>
+        <div class="category">💻 ইলেকট্রনিক্স</div>
+        <div class="category">🚗 গাড়ি</div>
+        <div class="category">🏠 বাড়ি</div>
+        <div class="category">💼 চাকরি</div>
+        <div class="category">🐄 পশু</div>
+    </div>
+
+    <div class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200">
+            <div class="info">
+                <div>iPhone 11</div>
+                <div class="price">৳ 45,000</div>
+                <div class="location">ঢাকা</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200">
+            <div class="info">
+                <div>Samsung TV</div>
+                <div class="price">৳ 28,000</div>
+                <div class="location">চট্টগ্রাম</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200">
+            <div class="info">
+                <div>Motorcycle</div>
+                <div class="price">৳ 95,000</div>
+                <div class="location">রাজশাহী</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Smart Bikroy | Trial Version
+</footer>
+
+</body>
+</html>
